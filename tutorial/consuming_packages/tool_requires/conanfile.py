@@ -5,3 +5,4 @@ class SimpleCmakeProject(ConanFile):
     requires = ["zlib/1.3.1"]
     settings = ["build_type"]
     generators = ["CMakeDeps", "CMakeToolchain"]
+    tool_requires = ["cmake/3.31.3"]
